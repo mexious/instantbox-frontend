@@ -1,6 +1,6 @@
 {
-  "short_name": "instantbox",
-  "name": "instantbox",
+  "short_name": "vm_image",
+  "name": "vm_image",
   "icons": [
     {
       "src": "favicon.ico",
