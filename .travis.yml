@@ -8,7 +8,7 @@ node_js:
   - 10
 
 env:
-  - IMAGE_NAME=instantbox/instantbox-frontend
+  - IMAGE_NAME=mexious/vm_image-frontend
 
 cache: npm
 
