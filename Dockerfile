@@ -11,9 +11,9 @@ FROM nginx:stable-alpine
 
 LABEL \
   org.label-schema.schema-version="1.0" \
-  org.label-schema.name="instantbox-frontend" \
-  org.label-schema.vcs-url="https://github.com/instantbox/instantbox-frontend" \
-  maintainer="Instantbox Team <team@instantbox.org>"
+  org.label-schema.name="vm_image-frontend" \
+  org.label-schema.vcs-url="https://github.com/mexious/vm_image-frontend/" \
+  maintainer="Developer Mexious <care@mexious.com>"
 
 COPY --from=builder /app/build/ /usr/share/nginx/html/
 COPY ./nginx.conf /etc/nginx/conf.d/default.conf
