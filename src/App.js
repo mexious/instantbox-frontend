@@ -156,20 +156,9 @@ class App extends Component {
         <div className="app">
           <h1 className="app__title">
             <span className="app__title-span">
-              MexiousVM
+              <img src="https://whoistools.web.id/themes/freshblue/images/path9246.png" width="243">
             </span>
           </h1>
-          <div className="app__desc">
-            <div className="app__text-editor-wrap">
-              <div className="app__title-bar">
-                {this.state.osList.map(os => os.label).join(' / ') || this.t('site.heading')}
-              </div>
-              <div className="app__text-body">
-                <span style={{ marginRight: 10 }}>$</span>
-                <span className="app__desc-content" />
-              </div>
-            </div>
-          </div>
           <LanguageSwitcher className="app__lang-switcher" i18n={this.props.i18n} />
 
           <Divider style={{ marginTop: 100 }}>
