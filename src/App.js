@@ -159,7 +159,17 @@ class App extends Component {
               <img src="/logo.png" width="330" />
             </span>
           </h1>
-
+          <div className="app__desc">
+            <div className="app__text-editor-wrap">
+              <div className="app__title-bar">
+                {this.state.osList.map(os => os.label).join(' / ') || this.t('site.heading')}
+              </div>
+              <div className="app__text-body">
+                <span style={{ marginRight: 10 }}>$</span>
+                <span className="app__desc-content" />
+              </div>
+            </div>
+          </div>
           <Divider style={{ marginTop: 100 }}>
             {isExistContainer ? this.t('prompt.created-os') : this.t('prompt.select-os')}
           </Divider>
