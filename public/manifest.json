@@ -1,6 +1,6 @@
 {
-  "short_name": "vm_image",
-  "name": "vm_image",
+  "short_name": "mexiousvm",
+  "name": "Mexious VM",
   "icons": [
     {
       "src": "favicon.ico",
