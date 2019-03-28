@@ -1,6 +1,6 @@
 {
-  "name": "instantbox",
-  "version": "0.2.0",
+  "name": "mexiousvm",
+  "version": "0.1.0",
   "private": true,
   "engines": {
     "node": ">= 10.15.2",
