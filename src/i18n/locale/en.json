@@ -3,7 +3,7 @@
     "locale": "en",
     "language": "English",
     "site": {
-      "heading": "instantbox",
+      "heading": "MexiousVM",
       "typed": "Want to experiment with something on a Linux distribution? Let's start!"
     },
     "keyword": {
@@ -25,7 +25,7 @@
       "ttl-in-hours": "Duration (H)"
     },
     "prompt": {
-      "created-os": "Your instantbox",
+      "created-os": "Your MexiousVM",
       "choose-os": "Choose OS",
       "choose-os-version": "Choose version",
       "select-os": "Choose OS",
@@ -40,7 +40,7 @@
       "enter-ttl-in-hours": "Enter duration"
     },
     "sentence": {
-      "open-webshell": "Instantbox has been created. Launch webshell?",
+      "open-webshell": "MexiousVM has been created. Launch webshell?",
       "open-webshell-try-again": "Please click again if webshell encountered an error.",
       "eg-port": "e.g. 80",
       "eg-cpu-core-count": "e.g. 1",
