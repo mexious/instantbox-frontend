@@ -156,7 +156,7 @@ class App extends Component {
         <div className="app">
           <h1 className="app__title">
             <span className="app__title-span">
-              <img src="/logo.png" width="300" />
+              <img src="/logo.png" width="330" />
             </span>
           </h1>
 
