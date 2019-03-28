@@ -156,7 +156,7 @@ class App extends Component {
         <div className="app">
           <h1 className="app__title">
             <span className="app__title-span">
-              {this.t('site.heading')}
+              MexiousVM
             </span>
           </h1>
           <div className="app__desc">
