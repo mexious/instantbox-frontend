@@ -4,7 +4,7 @@
     "language": "English",
     "site": {
       "heading": "MexiousVM",
-      "typed": "Want to experiment with Linux distributions ? Let's Start ! (Support : care@mexious.com)"
+      "typed": "Want to Deploy Linux Distribution for Experiments? Let's start!"
     },
     "keyword": {
       "notice": "Notice",
@@ -25,7 +25,7 @@
       "ttl-in-hours": "Duration (H)"
     },
     "prompt": {
-      "created-os": "Your MexiousVM",
+      "created-os": "Your Virtual Machine",
       "choose-os": "Choose OS",
       "choose-os-version": "Choose version",
       "select-os": "Choose OS",
