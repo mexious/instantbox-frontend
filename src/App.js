@@ -156,10 +156,9 @@ class App extends Component {
         <div className="app">
           <h1 className="app__title">
             <span className="app__title-span">
-              <img src="https://whoistools.web.id/themes/freshblue/images/path9246.png" width="243">
+              <img src="%PUBLIC_URL%/logo_transparent.png" width="240" />
             </span>
           </h1>
-          <LanguageSwitcher className="app__lang-switcher" i18n={this.props.i18n} />
 
           <Divider style={{ marginTop: 100 }}>
             {isExistContainer ? this.t('prompt.created-os') : this.t('prompt.select-os')}
